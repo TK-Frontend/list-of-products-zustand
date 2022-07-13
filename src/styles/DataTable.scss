@@ -1,0 +1,36 @@
+@import "./variables/mixins";
+@import "./variables/colors";
+
+.container {
+  width: 100%;
+  margin-bottom: 5px;
+  @include flex(center, center, column);
+
+  .cell {
+    background-color: $light-gray;
+    font-weight: bold;
+    .id {
+      width: 120px;
+    }
+  }
+  .pagination {
+    flex-shrink: 0;
+    margin-left: 2.5;
+  }
+}
+
+.footer-container {
+  @include flex(center, center, column);
+}
+
+.flex {
+  @include flex(center, center, row);
+}
+
+.table-footer {
+  background-color: $light-gray;
+  padding-left: 0 !important;
+  font-weight: bold;
+  text-align: center;
+  @include flex(center, center, column);
+}
