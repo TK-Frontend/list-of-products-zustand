@@ -1,0 +1,19 @@
+@import "./styles/variables/mixins";
+@import "./styles/variables/colors";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+body {
+  @include flex(center, center, column);
+  background-color: $gray;
+}
