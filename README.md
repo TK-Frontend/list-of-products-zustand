@@ -6,6 +6,8 @@ This project shows the fetched product list with simple pagination. You can even
 - Typescript
 - Zustand
 - MUI
+- SCSS
+- Axios
 
 ## Demo
 https://tk-frontend.github.io/list-of-products-zustand/
